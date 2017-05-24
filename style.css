@@ -1,6 +1,6 @@
 html, body{
 	display: flex;
-	background: #696969;
+	background: #333;
 	flex-direction: column;
 	justify-content: center;
 	width: 100%;
@@ -8,30 +8,61 @@ html, body{
 	margin: 0;
 	padding: 0;
 	align-items: center;
+
+}
+main {
+	width: 70%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+section {
+	width: 70%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
 }
 
 .foto {
 	width: 300px;
 	height: 300px;
 	border-radius:50%;
-	
-
+	animation: move 2s linear 0s infinite alternate;
+	position: relative;
+	animation-name: move;
+    animation-duration: 4s;
 }
+@keyframes move {
+	from{left: -200px;}
+	to{left: 200px;}
+}
+
 h1 {
-	font-size: 50px;
+	font-size: 80px;
+	color: #FFFAFA;
 	
 }
 
-section ul {
+/*section ul {
 	display: flex;
-	left: 200px;
+	justify-content: center;
+
 }
 section ul li {
 	list-style-type:none;
+	padding: 5px;
+}*/
+
+div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
+div a {
+	padding: 5px;
+}
+
 .icon {
 	width: 45px;
-
 }
-	
-
