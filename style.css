@@ -39,7 +39,7 @@ section {
 }
 
 .foto {
-	width: 20%;
+	width: 25%;
 	/*height: 300px;*/
 	border-radius:50%;
 	animation: movimento 5s linear 2s infinite alternate;
@@ -59,7 +59,7 @@ section {
 
 
 h1 {
-	font-size: 80px;
+	font-size: 88px;
 	color: #FFF;	
 	/*animation: move 6s linear 0s infinite alternate;*/
 	position: relative;
@@ -69,7 +69,8 @@ h1 {
 	
 }
 @keyframes pisca {
-	50% {color: red}
+	50% {color: green}
+	30% {color: blue}
   40% {transform: translatey (-50px)}
 }
 
@@ -89,7 +90,7 @@ div a {
 }
 
 .icon {
-	width: 45px;
+	width: 40px;
 }
 
 footer {
@@ -116,7 +117,7 @@ footer a {
 	}
 	
 	h1 {
-		font-size: 38px;
+		font-size: 42px;
 	}
 	@keyframes mov {
 		from{top: -115px;}
@@ -126,7 +127,7 @@ footer a {
  		 50% {background: red}
  		 40% {transform: translatey (-50px)}*/
 	.icon {
-		width: 30px;
+		width: 45px;
 	}
 
 	/*div a {
